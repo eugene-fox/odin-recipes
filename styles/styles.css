@@ -15,6 +15,25 @@ body {
   color: #d527b7
 }
 
+.back-button {
+  width: 200px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #8a00d4;
+  font-weight: 700;
+  display: block;
+  padding: 12px;
+  background-color: #e3e3e3;
+  text-align: center;
+  border: 4px dashed #8a00d4;
+  transition: opacity .5s;
+}
+
+.back-button:hover {
+  opacity: .5;
+}
+
 ul {
   list-style: none;
 }
